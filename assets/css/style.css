@@ -100,6 +100,7 @@ img {
     height: 220px;
     margin-bottom: 5%;
     margin-right: 5%;
+    margin-left: 2%;
     float: left;
 }
 
@@ -107,7 +108,7 @@ img {
     position: relative;
 }
 
-.caption1 span {
+.caption1 h3 {
     position: absolute;
     left: 0px;
     color:#dddddd;
@@ -129,7 +130,7 @@ img {
     position: relative;
 }
 
-.caption2 span {
+.caption2 h3 {
     position: absolute;
     right: 158px;
     color:#dddddd;
@@ -152,7 +153,7 @@ img {
     position: relative;
 }
 
-.caption3 span {
+.caption3 h3 {
     position: absolute;
     right: 605px;
     color:#dddddd;
@@ -173,7 +174,7 @@ img {
     position: relative;
 }
 
-.caption4 span {
+.caption4 h3 {
     position: absolute;
     right: 158px;
     color:#dddddd;
@@ -182,11 +183,13 @@ img {
     margin: auto;
     margin-top: 410px;
     margin-left: 30px;
+    overflow: auto;
 }
 
 #img5 {
     width: 350px;
     height: 220px;
+    margin-left: 2%;
     float: left;
 }
 
@@ -195,7 +198,7 @@ img {
     margin: auto;
 }
 
-.caption5 span {
+.caption5 h3 {
     position: absolute;
     right: 605px;
     color:#dddddd;
