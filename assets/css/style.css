@@ -1,0 +1,237 @@
+.navbar-header {
+    background-color: rgb(5, 5, 90);
+    width: 25%;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    z-index: 2;
+}
+
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:#dddddd;
+    padding-left: 55px;
+}
+
+.collapse {
+    background-color:#dddddd;
+    padding: 30px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: right;
+    width: 100%;
+    z-index: 1;
+    padding-right: 123px;
+}
+
+.container {
+    background-color: #ffffff;
+    margin: 50px 100px;
+    padding: 50px;
+    border: 2px solid rgb(185, 185, 185);
+}
+
+.box2 {
+    background-color:#ffffff;
+    margin: 50px 100px;
+    padding: 50px;
+    border: 2px solid rgb(185, 185, 185);
+}
+
+.box3 {
+    background-color:#ffffff;
+    margin: 50px 100px;
+    padding: 50px;
+    border: 2px solid rgb(185, 185, 185);
+}
+
+body {
+    background: url(../images/circles-lightcopy.png) no-repeat fixed;
+    background-repeat: repeat;
+}
+
+p {
+    line-height: 1.4;
+    text-align: justify;
+}
+
+h2 {
+    color:rgb(5, 5, 90);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#form {
+    color:#777777;
+}
+
+textarea {
+    width: 850px;
+    height: 300px;
+}
+
+.control-label {
+    color: #777777
+}
+
+button[type=submit] {
+    background-color: rgb(5, 5, 90);
+    color:#dddddd;
+    padding: 7px;
+    width: 12%;
+    border: 5px solid rgb(5, 5, 90);
+}
+
+
+img {
+    height: 300px;
+    width: 400px;
+    margin-right: 18px;
+    float: left;
+}
+
+#img1 {
+    position: static;
+    width: 350px;
+    height: 220px;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    float: left;
+}
+
+.caption1 {
+    position: relative;
+}
+
+.caption1 span {
+    position: absolute;
+    left: 0px;
+    color:#dddddd;
+    background-color:rgb(5, 5, 90);
+    padding: 20px 144px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+
+#img2 {
+    position: static;
+    width: 350px;
+    height: 220px;
+    margin-bottom: 5%;
+}
+
+.caption2 {
+    position: relative;
+}
+
+.caption2 span {
+    position: absolute;
+    right: 158px;
+    color:#dddddd;
+    background-color: rgb(5, 5, 90);
+    padding: 20px 139px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+#img3 {
+    width: 350px;
+    height: 220px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 16px;
+    float: left;
+}
+
+.caption3 {
+    position: relative;
+}
+
+.caption3 span {
+    position: absolute;
+    right: 605px;
+    color:#dddddd;
+    background-color:rgb(5, 5, 90);
+    padding: 20px 145px;
+    margin: auto;
+    margin-top: 400px;
+    margin-left: 50px;
+}
+
+#img4 {
+    width: 350px;
+    height: 220px;
+    margin-bottom: 5%;
+}
+
+.caption4 {
+    position: relative;
+}
+
+.caption4 span {
+    position: absolute;
+    right: 158px;
+    color:#dddddd;
+    background-color:rgb(5, 5, 90);
+    padding: 20px 110px;
+    margin: auto;
+    margin-top: 410px;
+    margin-left: 30px;
+}
+
+#img5 {
+    width: 350px;
+    height: 220px;
+    float: left;
+}
+
+.caption5 {
+    position: relative;
+    margin: auto;
+}
+
+.caption5 span {
+    position: absolute;
+    right: 605px;
+    color:#dddddd;
+    background-color:rgb(5, 5, 90);
+    padding: 20px 145px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+span {
+    margin: auto;
+}
+
+.paragraph {
+    color:#777777;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+.col-md-12 {
+    margin-top: 5px;
+    color: rgb(5, 5, 90);
+}
+
+footer {
+    background-color:#666666;
+    text-align: center;
+    color:#dddddd;
+    padding: 20px;
+    width: 100%;
+    border-top: 5px solid rgb(5, 5, 90);
+    margin-top: 67px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}

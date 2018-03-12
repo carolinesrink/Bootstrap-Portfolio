@@ -3,46 +3,71 @@
     <head>
         <meta charset="UTF-8" />
         <title>Basic Portfolio</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
-    <header id="head">
-         <h1>Caroline Rink</h1>
-    </header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Caroline Rink</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">About</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
     <hr>
 
     <body>
 
         <div class="container">
-            <a href="index.html">About |</a>
-            <a href="portfolio.html">Portfolio |</a>
-            <a href="contact.html">Contacts</a>
-        </div>
-
-        <div class="box">
-            <h2>About Me</h2>
-
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>About Me</h2>
+                </div>
+            </div>
             <hr>
 
-            <img src="file:///Users/carolinerink/Desktop/3B21976B-5067-4D2D-BB3D-6A988B01ACD7.jpg" alt="Portrait">
-
-            <div class="paragraph">
-                <p>
-                    My name is Caroline Rink. I was born in Atlanta in 1995. I grew up in Marietta, GA and went school at Pope High School. I attended the University of West Georgia for my undergraduate and I graduated in December of 2017 with a BA in History.
-                </p>
-                    <br>
-                <p>
-                    I enjoy traveling and I participated in two study abroad programs through my University. I went to Berlin, Germany in the summer of 2015 and Waterford, Ireland in the summer of 2017. I will also be heading to Sweden, Denmark, and Holland this coming summer.
-                </p>
-                    <br>
-                <p>
-                    When I am not traveling, I love to draw and paint. I plan to take a pottery class in the near future, too. I like to explore many different mediums when it comes to art; although, I don't consider myself an artist.
-                </p>
-                    <br>
-                <p>
-                    I am also passionate about animals. I have two cats, Stella and Goose, and I plan volunteer at the Atlanta Humane Society this summer.
-                </p>
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-responsive img-rounded" src="assets/images/3B21976B-5067-4D2D-BB3D-6A988B01ACD7 copy.jpg" alt="Portrait">
+                </div>
+                <div class="paragraph">
+                    <div class="col-md-8">
+                        <div class="pull-left">
+                            <p>
+                                My name is Caroline Rink and I was born and raised in Atlanta, GA. After my high school graduation in 2013, I attended the University of West Georgia for my undergraduate degree. I graduated in December of 2017 and moved back to Atlanta shortly after. I am currently a student at the Georgia Tech Coding Bootcamp to learn web development and computer programming.
+                            </p>
+                                <br>
+                            <p>
+                                I have two brothers, Christopher and David. David is a medical student at Emory University and Christopher is a software engineer in New York City. Christopher is the one who originally introduced me to computer programming last year.
+                            </p>
+                                <br>
+                            <p>
+                                My favorite hobby is traveling and I have been to seven countries so far. I participated in two study abroad program while I was completing my undergrad. The most memorable place I went to was my study abroad trip to Ireland. I also plan on visiting some Scandinavian countries this summer. 
+                            </p>
+                                <br>
+                            <p>
+                                I also have two cats, Stella and Goose, who are always worth a mention. (:
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
